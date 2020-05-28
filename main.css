@@ -77,7 +77,7 @@ body {
     color: white;
 }
 
-@media (max-width: 700px){
+@media (max-width: 900px){
     #containerTime{
         display: block;
         justify-content: center;
@@ -101,5 +101,18 @@ body {
     
     #date{
         font-size: 22pt;
+    }
+
+    #intro{
+        font-size: 15pt;
+    }
+
+    .smallerText{
+        font-size: 10pt;
+    }
+
+    #intro, .smallerText{
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
 }
