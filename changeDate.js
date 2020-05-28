@@ -1,5 +1,5 @@
 var today = new Date();
-var month = today.getMonth();
+var month = today.getMonth() + 1;
 var day = today.getDate();
 var year = today.getFullYear();
 
@@ -8,8 +8,6 @@ var button = document.getElementById("checkTimeBtn");
 button.addEventListener('click', function(){
 
     var date;
-
-    month = month + 1;
 
     if(month == 1){
         month = "January";

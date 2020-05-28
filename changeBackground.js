@@ -25,7 +25,7 @@ button.addEventListener('click', function() {
     }
 
     //Night
-    else if(hours < 23) {
+    else if(hours <= 24) {
         document.body.style.backgroundColor = "rgb(20, 20, 138)";
     }
 
@@ -34,3 +34,5 @@ button.addEventListener('click', function() {
         document.body.style.backgroundColor = "rgb(0, 0, 34)";
     }
 })
+
+console.log(hours);
