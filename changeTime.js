@@ -2,6 +2,7 @@ var today = new Date();
 var hour = today.getHours();
 var minutes = today.getMinutes();
 
+var button = document.getElementById("checkTimeBtn");
 
 button.addEventListener('click', function () {
     var amPm = (hour >= 12) ? " PM" : " AM";//sets AM and PM
