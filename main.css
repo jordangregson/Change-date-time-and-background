@@ -76,3 +76,30 @@ body {
     justify-content: center;
     color: white;
 }
+
+@media (max-width: 700px){
+    #containerTime{
+        display: block;
+        justify-content: center;
+        margin-top: 8vh;
+        margin-left: 28vw;
+        margin-right: 28vw;
+        background-color: rgba(0, 0, 0, 0.324);
+    }
+
+    #containerDate{
+        display: block;
+        justify-content: center;
+        margin-left: 18vw;
+        margin-right: 18vw;
+        background-color: rgba(0, 0, 0, 0.324);
+    }
+    
+    #time{
+        font-size: 26pt;
+    }
+    
+    #date{
+        font-size: 22pt;
+    }
+}
