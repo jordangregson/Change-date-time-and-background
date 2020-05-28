@@ -9,51 +9,53 @@ button.addEventListener('click', function(){
 
     var date;
 
-    if(month == 2){
+    month = month + 1;
+
+    if(month == 1){
         month = "January";
     }
 
-    if(month == 3){
+    if(month == 2){
         month = "February";
     }
 
-    if(month == 4){
+    if(month == 3){
         month = "March";
     }
 
-    if(month == 5){
+    if(month == 4){
         month = "April";
     }
 
-    if(month == 6){
+    if(month == 5){
         month = "May";
     }
 
-    if(month == 7){
+    if(month == 6){
         month = "June";
     }
 
-    if(month == 8){
+    if(month == 7){
         month = "July";
     }
 
-    if(month == 9){
+    if(month == 8){
         month = "August";
     }
 
-    if(month == 10){
+    if(month == 9){
         month = "September";
     }
 
-    if(month == 11){
+    if(month == 10){
         month = "October";
     }
 
-    if(month == 12){
+    if(month == 11){
         month = "November";
     }
 
-    if(month == 13){
+    if(month == 12){
         month = "December";
     }
     
